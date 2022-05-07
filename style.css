@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background: url("https://conectesus-paciente.saude.gov.br/assets/home/capa_logo.png")
+    #39a1f7 repeat;
+  background-size: cover;
+  font-family: "Rawline", Arial, sans-serif;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+header {
+  height: 3rem;
+  width: 100%;
+  text-align: center;
+  background-color: red;
+  color: #f6f6f8;
+}
+.container {
+  width: 100%;
+  max-width: 900px;
+  min-width: 320px;
+  background: url("bg.png") #0065a7;
+  color: #fff;
+  padding: 2rem;
+  margin: 3rem 1rem;
+  border-radius: 3px;
+  box-shadow: -2px 2px 6px 1px gray;
+}
+.container h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #a3eb00;
+  text-align: center;
+}
+form {
+  padding: 0 1px;
+  margin-top: 1rem;
+}
+form fieldset {
+  border: 2px solid rgba(128, 128, 128, 0.363);
+  padding: 1rem;
+  border-radius: 6px;
+  margin: 0.5rem 0;
+}
+form label {
+  display: block;
+  font-size: 14px;
+  color: #f6f6f8;
+  margin-bottom: 0.3rem;
+}
+form input {
+  border: none;
+  width: 100%;
+  padding: 6px;
+  border-radius: 6px;
+}
+form optgroup {
+  background-color: gray;
+}
+form input[type="radio"] {
+  display: inline-block;
+  width: 20px;
+}
+form .l-radio {
+  display: inline-block;
+}
+form select {
+  margin: 0.5rem 0;
+  padding: 5px;
+  color: black;
+}
+form .btn {
+  padding: 6px;
+  background-color: #036;
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+form .btn:hover {
+  background-color: #fafafa;
+  color: #232323;
+}
